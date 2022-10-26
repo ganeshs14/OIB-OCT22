@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#name_nav {
+  color: #fff;
+}
+
+#name_ul {
+  flex: auto;
+  justify-content: center;
+}
+
+#b_color {
+  background-color: #551b70;
+}
+
+#card_title {
+  color: #7d4698;
+}

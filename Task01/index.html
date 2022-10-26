@@ -3,11 +3,228 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Task 01</title>
 </head>
 
 <body>
-  <h1>Task 01</h1>
+  <!-- Navbar -->
+  <section id="b_color">
+    <header class="container">
+      <nav class="navbar navbar-expand-lg p-2" id="b_color">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="name_nav" href=""><img src="assets/logo.png" height="50px" alt="logo" /> <strong>TOR</strong></a>
+          <button type="button" class="btn btn-warning btn-sm"><strong>Donate</strong></button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="name_ul">
+              <li class="nav-item">
+                <a class="nav-link" id="name_nav" href="#1">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="name_nav" href="#Support">Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="name_nav" href="#Community">Community</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="name_nav" href="#Blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="name_nav" href="#Donate">Donate</a>
+              </li>
+            </ul>
+            <div class="">
+              <button type="button" class="btn dropdown-toggle btn-block my-3 my-sm-0 mx-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> English (en)</button>
+
+              <a class="btn btn-sm btn-outline-light" href="#download">Download Tor Browser <i class="ml-2 pt-1 fas fa-arrow-down"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </section>
+
+  <section id="b_color">
+    <div class="container">
+      <div class="row" id="b_color">
+        <div class="col-2"></div>
+        <div class="col-8 content-center pt-5 mt-5" id="name_nav">
+          <div class="row">
+            <h1 class="mx-auto display-2 text-center ">Browse Privately.</h1>
+          </div>
+          <div class="row">
+            <h1 class="mx-auto display-2 text-center ">Explore Freely.</h1>
+          </div>
+          <div class="row">
+            <h3 class="mx-auto p-3 text-center ">Defend yourself against tracking and surveillance. Circumvent censorship.</h3>
+          </div>
+          <div class="row col-6 p-5 mx-auto">
+            <a class="btn btn-lg btn-outline-light text-wrap" href="#download">Download Tor Browser <i class="fas fa-arrow-down"></i></a>
+          </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+  </section>
+  <!-- 1 -->
+  <section>
+    <div class="container py-3">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-md-5 order-1">
+            <img src="assets/block-trackers.svg" class="img-fluid" alt="block-trackers">
+          </div>
+          <div class="col-md-7 px-3 order-2">
+            <div class="card-block px-3 py-5">
+              <h3 class="pt-3 card-title" id="card_title">BLOCK TRACKERS</h3>
+              <p class="fs-4 lh-base mt-3 pt-3">Tor Browser isolates each website you visit so third-party trackers and ads can't follow you. Any cookies automatically clear when you're done browsing. So will your browsing history.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 2 -->
+  <section>
+    <div class="container py-3">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-md-5 order-2">
+            <img src="assets/surveillance.svg" class="img-fluid" alt="surveillance">
+          </div>
+          <div class="col-md-7 px-3 order-1">
+            <div class="card-block px-3 py-5">
+              <h3 class="pt-3 card-title" id="card_title">DEFEND AGAINST SURVEILLANCE</h3>
+              <p class="fs-4 lh-base mt-3 pt-3">Tor Browser prevents someone watching your connection from knowing what websites you visit. All anyone monitoring your browsing habits can see is that you're using Tor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 3 -->
+  <section>
+    <div class="container py-3">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-md-5 order-1">
+            <img src="assets/fingerprinting.svg" class="img-fluid" alt="fingerprinting">
+          </div>
+          <div class="col-md-7 px-3 order-2">
+            <div class="card-block px-3 py-5">
+              <h3 class="pt-3 card-title" id="card_title">RESIST FINGERPRINTING</h3>
+              <p class="fs-4 lh-base mt-3 pt-3">Tor Browser aims to make all users look the same, making it difficult for you to be fingerprinted based on your browser and device information.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 4 -->
+  <section>
+    <div class="container py-3">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-md-5 order-2">
+            <img src="assets/encryption.svg" class="img-fluid" alt="encryption">
+          </div>
+          <div class="col-md-7 px-3 order-1">
+            <div class="card-block px-3 py-5">
+              <h3 class="pt-3 card-title" id="card_title">MULTI-LAYERED ENCRYPTION</h3>
+              <p class="fs-4 lh-base mt-3 pt-3">Your traffic is relayed and encrypted three times as it passes over the Tor network. The network is comprised of thousands of volunteer-run servers known as Tor relays.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 5 -->
+  <section>
+    <div class="container py-3">
+      <div class="card border-0">
+        <div class="row">
+          <div class="col-md-5 order-1">
+            <img src="assets/browse-freely.svg" class="img-fluid" alt="browse-freely">
+          </div>
+          <div class="col-md-7 px-3 order-2">
+            <div class="card-block px-3 py-5">
+              <h3 class="pt-3 card-title" id="card_title">BROWSE FREELY</h3>
+              <p class="fs-4 lh-base mt-3 pt-3">With Tor Browser, you are free to access sites your home network may have blocked.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="1">
+    <div class="container">
+      <div class="my-4">
+        <h5 id="card_title">ABOUT US</h5>
+      </div>
+      <div>
+        <p class="text-secondary fs-1 lh-lg">We believe everyone should be able to explore the internet with privacy. We are the Tor Project, a 501(c)(3) US nonprofit. We advance human rights and defend your privacy online through free software and
+          open networks.
+          <a href="#meet">Meet our team</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer mt-auto py-3" id="b_color">
+    <div class="container">
+      <div class="row">
+        <div class="col-6" style="background-image: url('assets/foot_img.png');"> </div>
+        <div class="col-6 my-5">
+          <h4 class="mt-5" id="name_nav">Download Tor browser</h4>
+          <p class="text fs-5 mt-3" id="name_nav">Download Tor Browser to experience real private browsing without tracking, surveillance, or censorship.</p>
+          <a class="btn btn-lg btn-light" href="#download">Download Tor Browser <i class="ml-2 pt-1 fas fa-arrow-down"></i></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="col-sm-8 offset-lx-1 offset-sm-0 mt-5">
+            <p id="name_nav"><strong>SUBSCRIBE TO OUR NEWSLETTER</strong></p>
+            <p id="name_nav">Get monthly updates and opportunities from the Tor Project:</p>
+            <p><a class="btn btn-small btn-light mt-2" role="button" aria-pressed="true" href="#sign_up">Sign up</a></p>
+          </div>
+          <div class="col-sm-2 mt-5">
+            <div class="row">
+              <h4 class="col"><a class="px-3" id="name_nav" target="_blank" href="#discourse"><i class="fab fa-discourse"></i></a></h4>
+              <h4 class="col"><a class=" px-3" id="name_nav" target="_blank" href="#facebookb"><i class="fab fa-facebook"></i></a></h4>
+              <h4 class="col"><a class="mastodon px-3" id="name_nav" target="_blank" href="#mastodon" rel="me"><i class="fab fa-mastodon"></i></a></h4>
+            </div>
+            <div class="row">
+              <h4 class="col"><a class="instagram px-3" id="name_nav" target="_blank" href="#instagram"><i class="fab fa-instagram"></i></a></h4>
+              <h4 class="col"><a class="twitter px-3" id="name_nav" target="_blank" href="#twitter"><i class="fab fa-twitter"></i></a></h4>
+              <h4 class="col"><a class="linkedin px-3" id="name_nav" target="_blank" href="#linkedin"><i class="fab fa-linkedin"></i></a></h4>
+            </div>
+            <div class="row">
+              <h4 class="col"><a class="github px-3" id="name_nav" target="_blank" href="#github"><i class="fab fa-github"></i></a></h4>
+              <h4 class="col"><a class="telegram px-3" id="name_nav" target="_blank" href="#telegram"><i class="fab fa-telegram"></i></a></h4>
+              <h4 class="col"></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <p class="my-1" id="name_nav">Trademark, copyright notices, and rules for use by third parties can be found in our
+          <a href="#FAQ" target="_blank" class="text-primary text-light"><u>FAQ</u></a>.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -2,4 +2,4 @@
 
 `Virtual Internship Program`
 
-<p>by <a href="https://www.oasisinfobyte.in/">OASIS INFOBYTE</a> </p>
+<p>by <a href="https://www.oasisinfobyte.in/" target="_blank">OASIS INFOBYTE</a> </p>

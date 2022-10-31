@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #180A0A;
+  font-family: "Sofia", sans-serif;
+}
+
+.title {
+  margin: 30px ;
+  color: #ECDBBA;
+  text-align: center;
+  font-size: 36px;
+}
+
+.age {
+  margin: 10px;
+  color: #ECDBBA;
+  text-align: center;
+  font-size: 32px;
+}
+
+.ba {
+  background: #fff;
+  display: flex;
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+.quote {
+  margin: 170px 130px;
+  font-size: 32px;
+}
+
+.bio {
+  font-family: "Trirong", sans-serif;
+  color: #fff;
+  word-spacing: 8px;
+}
+
+hr {
+  margin: 50px;
+  color: #fff;
+}
+
+.tri {
+  color: #ECDBBA;
+  text-align: center;
+}
